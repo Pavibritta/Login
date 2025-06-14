@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .success{
+      color: green;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    }
+  </style>
+</head>
+<body style="background-image: url(images/bak.jpeg);">
+  <div class="box" id="box">
+    <p class="success">Login Success</p>
+    <p class="success">User Not Found</p>
+  </div>
+  
+  <div class="container" id="container">
+    <h1>LOG IN</h1>
+    
+    <form class="input-container">
+    <input type="text" placeholder="User Name" id="Logname" autocomplete="username">
+    <p class="demo">Please enter your name !</p>
+    <input type="password" placeholder="Password" id="Logpass" autocomplete="current-password">
+    <p class="demo">Please enter your Password !</p>
+  </form>
+  
+    <div class="out">
+    <button class="submit" id="logsubmit">Submit</button>
+    <p>Don't have an account <a href="Sign.html">SignIn</a></p>
+    </div>
+  </div>
+
+  <script src="js\script.js">
+  </script>
+</body>
+</html>
